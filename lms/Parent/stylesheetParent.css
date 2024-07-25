@@ -1,0 +1,52 @@
+/* Parent  */
+
+.parent-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: space-between;
+    width: 100%;
+    margin: 100px 50px 100px 100px;
+}
+
+.subject-box {
+    flex: 1 1 calc(33% - 20px);
+    background: #2980b9;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 200px;
+}
+
+.subject-box:nth-child(2) {
+    background: #27ae60;
+}
+
+.subject-box:nth-child(3) {
+    background: #e74c3c;
+}
+
+.subject-box:nth-child(4) {
+    background: #8e44ad;
+}
+
+.subject-box:nth-child(5) {
+    background: #f39c12;
+}
+.subject-box:nth-child(6) {
+    background: #f312b0;
+}
+.subject-box:nth-child(7) {
+    background: #12f3ce;
+}
+
+
+
+.subject-box h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+

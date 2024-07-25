@@ -1,0 +1,262 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+:root {
+    --offwhite: #edebe6;
+    --black: #000000;
+    --white: #ffffff;
+    --blue: #000b3d;
+    --gray: rgb(115, 114, 114);
+    --skyblue: #113978;
+    --skyblue2: rgb(13, 136, 188);
+  }
+
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    height: 50px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.login-status {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login-status a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-section {
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.faculty-logo {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.welcome-section h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.highlight {
+    color: red;
+}
+
+.faculty-name {
+    color: blue;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.site-announcements, .all-courses {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 2;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.site-announcements h2, .all-courses h2 {
+    border-bottom: 2px solid #00a9e0;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.announcement, .course {
+    margin-bottom: 20px;
+}
+
+.course p {
+    margin: 5px 0;
+}
+
+.sidebar {
+    width: 300px;
+}
+
+.main-menu, .navigation, .calendar {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.main-menu h3, .navigation h3, .calendar h3 {
+    border-bottom: 2px solid #00a9e0;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.main-menu ul, .navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-menu ul li, .navigation ul li {
+    margin-bottom: 10px;
+}
+
+.main-menu ul li a, .navigation ul li a {
+    text-decoration: none;
+    color: #00a9e0;
+    font-size: 14px;
+}
+
+.calendar #calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar-month {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.calendar-grid div {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e0e0e0;
+    border-radius: 5px;
+}
+
+
+/* One Suject  */
+.dashboard-content {
+    width: 80%;
+    background: #fff;
+}
+
+.breadcrumb {
+    font-size: 14px;
+    background-color: #000b3d;
+    width: 100%;
+
+    padding: 10px 10px 10px 10px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.breadcrumb span {
+    color: #7f8c8d;
+}
+
+h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.course-content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+
+.course-content h3 {
+    color: #2980b9;
+}
+
+.course-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.course-content ul li {
+    margin: 5px 0;
+}
+
+.course-content ul li a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.subject-container {
+    margin-bottom: 20px;
+
+}
+
+.subject-container hr {
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+footer {
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
